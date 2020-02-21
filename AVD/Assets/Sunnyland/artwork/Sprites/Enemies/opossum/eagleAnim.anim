@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlayerCrouch
+  m_Name: eagleAnim
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 9878b6f1290ef41e88b30f08f68537fd, type: 3}
-    - time: 0.2
-      value: {fileID: 21300000, guid: 448d57c5e4c694686badaba281a6adff, type: 3}
-    - time: 0.38333333
-      value: {fileID: 21300000, guid: 448d57c5e4c694686badaba281a6adff, type: 3}
+      value: {fileID: 21300000, guid: f240dfd4814d34d55a9b033f3c9d8a60, type: 3}
+    - time: 0.35
+      value: {fileID: 21300000, guid: c97786e9459b34e058449b84cd9aab61, type: 3}
+    - time: 0.65
+      value: {fileID: 21300000, guid: 36ec151523b4340ef982c2e9eb0af881, type: 3}
+    - time: 1
+      value: {fileID: 21300000, guid: 63301056ddf5f4841800915f26c302d2, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,15 +46,16 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 9878b6f1290ef41e88b30f08f68537fd, type: 3}
-    - {fileID: 21300000, guid: 448d57c5e4c694686badaba281a6adff, type: 3}
-    - {fileID: 21300000, guid: 448d57c5e4c694686badaba281a6adff, type: 3}
+    - {fileID: 21300000, guid: f240dfd4814d34d55a9b033f3c9d8a60, type: 3}
+    - {fileID: 21300000, guid: c97786e9459b34e058449b84cd9aab61, type: 3}
+    - {fileID: 21300000, guid: 36ec151523b4340ef982c2e9eb0af881, type: 3}
+    - {fileID: 21300000, guid: 63301056ddf5f4841800915f26c302d2, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.4
+    m_StopTime: 1.0166667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

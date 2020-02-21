@@ -37,11 +37,13 @@ public class PlayerControl2D : MonoBehaviour
         if (Input.GetButtonDown("Crouch"))
         {
             crouch = true;
+            OnCrouching(crouch);
         }
 
         if (Input.GetButtonUp("Crouch"))
         {
             crouch = false;
+            OnCrouching(crouch);
         }
 
 
@@ -65,7 +67,7 @@ public class PlayerControl2D : MonoBehaviour
 
     public void OnCrouching(bool isCrouching)
     {
-        //   animator.SetBool("IsCrouching", isCrouching);
+        animator.SetBool("IsCrouching", isCrouching);
     }
 
 } 

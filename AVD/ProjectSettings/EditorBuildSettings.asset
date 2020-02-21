@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ADV/MAIN2019V.unity
     guid: 1ffa77a7b7c2e9b4b8979f9525b129a1
+  - enabled: 1
+    path: Assets/ADV/Arturo/Scenes/WelcomeToCarlet.unity
+    guid: 2ace4a5857bddcb498b54d6be9e4f363
+  - enabled: 1
+    path: Assets/ADV/Arturo/Scenes/SunnyLand.unity
+    guid: 025a3ae77f64d324ca839d84ade77f6d
   m_configObjects: {}
