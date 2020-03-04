@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class torretaController : MonoBehaviour
 {
@@ -10,12 +8,13 @@ public class torretaController : MonoBehaviour
 
     [SerializeField]
     private GameObject[] slots;
+    public bool activada;
 
     public float fuerzaDisparo;
     private int count = 0;
     void Start()
     {
-        
+        activada = false;
     }
 
     // Update is called once per frame
@@ -26,10 +25,20 @@ public class torretaController : MonoBehaviour
         }
     }
 
+    public void activar() {
+        print("torreta activada");
+        gameObject.GetComponent<AudioSource>().Play();
+        activada = true;
+    }
+
+
     void Disparar() {
-        Rigidbody bala;
-        bala = GameObject.Instantiate(balaPrefab, slots[count%slots.Length].transform.position, slots[count % slots.Length].transform.rotation).GetComponent<Rigidbody>();
-        bala.GetComponent<Rigidbody>().AddForce(bala.transform.forward * fuerzaDisparo, ForceMode.Impulse);
-        count++;
+        if (activada)
+        {
+            Rigidbody bala;
+            bala = GameObject.Instantiate(balaPrefab, slots[count % slots.Length].transform.position, slots[count % slots.Length].transform.rotation).GetComponent<Rigidbody>();
+            bala.GetComponent<Rigidbody>().AddForce(bala.transform.forward * fuerzaDisparo, ForceMode.Impulse);
+            count++;
+        }
     }
 }

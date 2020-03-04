@@ -22,9 +22,9 @@ public class balaScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.layer == 16) {
-            Debug.Log("toco suelo");
-            rb.Sleep();
-        }
+        Debug.Log("toco suelo");
+        rb.Sleep();
+        Destroy(gameObject);
+
     }
 }
