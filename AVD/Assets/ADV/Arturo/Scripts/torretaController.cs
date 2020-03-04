@@ -11,9 +11,8 @@ public class torretaController : MonoBehaviour
     [SerializeField]
     private GameObject[] slots;
 
-
+    public float fuerzaDisparo;
     private int count = 0;
-
     void Start()
     {
         
@@ -30,6 +29,7 @@ public class torretaController : MonoBehaviour
     void Disparar() {
         Rigidbody bala;
         bala = GameObject.Instantiate(balaPrefab, slots[count%slots.Length].transform.position, slots[count % slots.Length].transform.rotation).GetComponent<Rigidbody>();
+        bala.GetComponent<Rigidbody>().AddForce(bala.transform.forward * fuerzaDisparo, ForceMode.Impulse);
         count++;
     }
 }

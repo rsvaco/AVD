@@ -7,16 +7,24 @@ public class balaScript : MonoBehaviour
     // Start is called before the first frame update
 
     public Rigidbody rb;
-    public float thrust = 100.0f;
+    //public float thrust = 100.0f;
 
     void Start()
     {
-        rb.AddForce(0, 0, -thrust, ForceMode.Impulse);
+        //rb.AddForce(0, 0, -thrust, ForceMode.Impulse);
     }
 
     // Update is called once per frame
     void Update()
     {
        
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.layer == 16) {
+            Debug.Log("toco suelo");
+            rb.Sleep();
+        }
     }
 }
