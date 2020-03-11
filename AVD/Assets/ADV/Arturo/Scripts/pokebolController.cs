@@ -26,7 +26,7 @@ public class pokebolController : MonoBehaviour
         {
             if (GameObject.FindGameObjectsWithTag("Player").Length == 0)
             {
-                Instantiate(torretaPrefab, gameObject.transform.position, Quaternion.identity);
+                Instantiate(torretaPrefab, collision.contacts[0].point, Quaternion.identity);
             }
             else {
                 Debug.Log("no se puede instanciar otra torreta, ya hay una activa. esperate para que se muera");

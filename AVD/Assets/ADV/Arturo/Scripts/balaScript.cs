@@ -22,9 +22,19 @@ public class balaScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        Debug.Log("toco suelo");
-        rb.Sleep();
+        //Debug.Log("toco suelo");
+        //rb.Sleep();
         Destroy(gameObject);
+        //gameObject.SetActive(false);
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            collision.gameObject.GetComponent<morir>().muerte();
+        }
 
     }
 }

@@ -1,10 +1,14 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class torretaController : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]
     private GameObject balaPrefab;
+
+    static List<GameObject> ammoPool;
+    public int poolSize;
 
     [SerializeField]
     private GameObject[] slots;
@@ -14,6 +18,37 @@ public class torretaController : MonoBehaviour
     private int count = 0;
     private Animator animator;
     private int tasaDisparo = 100;
+
+    void Awake()
+    {
+        if (ammoPool == null)
+        {
+            ammoPool = new List<GameObject>();
+        }
+        for (int i = 0; i < poolSize; i++)
+        {
+            GameObject ammoObject = Instantiate(balaPrefab);
+            ammoObject.SetActive(false);
+            ammoPool.Add(ammoObject);
+        }
+    }
+
+    GameObject SpawnAmmo(Vector3 location, Quaternion rotation)
+    {
+        foreach (GameObject ammo in ammoPool)
+        {
+            if (ammo.activeSelf == false)
+            {
+                ammo.SetActive(true);
+                ammo.transform.position = location;
+                ammo.transform.rotation = rotation;
+                return ammo;
+            }
+        }
+        return null;
+    }
+
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -35,6 +70,13 @@ public class torretaController : MonoBehaviour
         activada = true;
     }
 
+    public void desactivar()
+    {
+        Debug.Log("torreta desactivada");
+        gameObject.GetComponent<AudioSource>().Play();
+        activada = false;
+    }
+
     public void morir() {
         Debug.Log("muero");
         Destroy(gameObject);
@@ -46,8 +88,11 @@ public class torretaController : MonoBehaviour
         {
             Rigidbody bala;
             bala = GameObject.Instantiate(balaPrefab, slots[count % slots.Length].transform.position, slots[count % slots.Length].transform.rotation).GetComponent<Rigidbody>();
+            //GameObject balita = SpawnAmmo(slots[count % slots.Length].transform.position, slots[count % slots.Length].transform.rotation);
+            //bala = balita.GetComponent<Rigidbody>();
+
             bala.GetComponent<Rigidbody>().AddForce(bala.transform.forward * fuerzaDisparo, ForceMode.Impulse);
-            
+            //bala.AddForce(bala.transform.forward * fuerzaDisparo, ForceMode.Impulse);
         }
     }
 }
