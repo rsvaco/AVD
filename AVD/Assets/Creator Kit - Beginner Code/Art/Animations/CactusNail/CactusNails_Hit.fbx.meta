@@ -1,14 +1,70 @@
 fileFormatVersion: 2
 guid: cd99c641f8a271e42bd21a103db6e47e
 ModelImporter:
-  serializedVersion: 28
-  internalIDToNameTable:
-  - first:
-      74: 1827226128182048838
-    second: Hit
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CactusBwoiMesh
+    100002: //RootNode
+    100004: Hips
+    100006: LeftArm
+    100008: LeftArmEND
+    100010: LeftCalf
+    100012: LeftEyBrows
+    100014: LeftEye
+    100016: LeftFoot
+    100018: LeftFootEND
+    100020: LeftLEg
+    100022: LeftUpperArm
+    100024: Mouth
+    100026: RightArm
+    100028: RightArmEND
+    100030: RightCalf
+    100032: RightEyBrows
+    100034: RightEye
+    100036: RightFoot
+    100038: RightFootEND
+    100040: RightLEg
+    100042: RightUpperArm
+    100044: Root
+    100046: Spine1
+    100048: Spine2
+    100050: Spine3
+    100052: SpineEND
+    400000: CactusBwoiMesh
+    400002: //RootNode
+    400004: Hips
+    400006: LeftArm
+    400008: LeftArmEND
+    400010: LeftCalf
+    400012: LeftEyBrows
+    400014: LeftEye
+    400016: LeftFoot
+    400018: LeftFootEND
+    400020: LeftLEg
+    400022: LeftUpperArm
+    400024: Mouth
+    400026: RightArm
+    400028: RightArmEND
+    400030: RightCalf
+    400032: RightEyBrows
+    400034: RightEye
+    400036: RightFoot
+    400038: RightFootEND
+    400040: RightLEg
+    400042: RightUpperArm
+    400044: Root
+    400046: Spine1
+    400048: Spine2
+    400050: Spine3
+    400052: SpineEND
+    2100000: CactusBwoi_Material
+    4300000: CactusBwoiMesh
+    7400000: Hit
+    9500000: //RootNode
+    13700000: CactusBwoiMesh
   externalObjects: {}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -37,7 +93,6 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit
       takeName: Take 001
-      internalID: 1827226128182048838
       firstFrame: 1
       lastFrame: 40
       wrapMode: 0
@@ -70,7 +125,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -78,19 +132,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -99,10 +152,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -112,16 +165,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: Root
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: d3aea247b6976ac4298d5d2e8c0a681b,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 2
   additionalBone: 0
   userData: 
   assetBundleName: 

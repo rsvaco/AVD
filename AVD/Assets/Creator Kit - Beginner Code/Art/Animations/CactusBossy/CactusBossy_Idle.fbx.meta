@@ -1,14 +1,88 @@
 fileFormatVersion: 2
 guid: 9fc7d14627bfceb4d9bb769bbffc7497
 ModelImporter:
-  serializedVersion: 28
-  internalIDToNameTable:
-  - first:
-      74: 1827226128182048838
-    second: Idle
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cactus
+    100002: //RootNode
+    100004: Hips
+    100006: LeftArm
+    100008: LeftArmEND
+    100010: LeftArmEND1
+    100012: LeftCalf
+    100014: LeftEye
+    100016: LeftFoot
+    100018: LeftHead
+    100020: LeftHeadHat
+    100022: LeftHeadHatEND
+    100024: LeftHeadMouth
+    100026: LeftLeg
+    100028: LeftToes
+    100030: LeftToesEND
+    100032: LeftUnieye
+    100034: LeftUpperArm
+    100036: Neck
+    100038: RighrHeadLeftEye
+    100040: RightArm
+    100042: RightCalf
+    100044: RightFoot
+    100046: RightHead
+    100048: RightHeadEND
+    100050: RightHeadLeftCheek
+    100052: RIghtHeadMouth
+    100054: RightHeadRightCheek
+    100056: RightHeadRightEye
+    100058: RightLeg
+    100060: RightToes
+    100062: RightToesEND
+    100064: RightUpperArm
+    100066: Root
+    100068: Spine1
+    100070: Spine2
+    400000: Cactus
+    400002: //RootNode
+    400004: Hips
+    400006: LeftArm
+    400008: LeftArmEND
+    400010: LeftArmEND1
+    400012: LeftCalf
+    400014: LeftEye
+    400016: LeftFoot
+    400018: LeftHead
+    400020: LeftHeadHat
+    400022: LeftHeadHatEND
+    400024: LeftHeadMouth
+    400026: LeftLeg
+    400028: LeftToes
+    400030: LeftToesEND
+    400032: LeftUnieye
+    400034: LeftUpperArm
+    400036: Neck
+    400038: RighrHeadLeftEye
+    400040: RightArm
+    400042: RightCalf
+    400044: RightFoot
+    400046: RightHead
+    400048: RightHeadEND
+    400050: RightHeadLeftCheek
+    400052: RIghtHeadMouth
+    400054: RightHeadRightCheek
+    400056: RightHeadRightEye
+    400058: RightLeg
+    400060: RightToes
+    400062: RightToesEND
+    400064: RightUpperArm
+    400066: Root
+    400068: Spine1
+    400070: Spine2
+    2100000: CactusBossy
+    4300000: Cactus
+    7400000: Idle
+    9500000: //RootNode
+    13700000: Cactus
   externalObjects: {}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -37,7 +111,6 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: Take 001
-      internalID: 1827226128182048838
       firstFrame: 1
       lastFrame: 280
       wrapMode: 0
@@ -70,7 +143,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -78,19 +150,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.02
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -99,10 +170,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -112,16 +183,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 2
     rootMotionBoneName: Root
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 51ed1a96caabdfb43a94013d75c97f28,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 2
   additionalBone: 0
   userData: 
   assetBundleName: 

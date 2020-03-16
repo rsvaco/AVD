@@ -17,7 +17,7 @@ public class torretaController : MonoBehaviour
     public float fuerzaDisparo;
     private int count = 0;
     private Animator animator;
-    private int tasaDisparo = 100;
+    private int tasaDisparo = 2;
 
     void Awake()
     {
@@ -60,6 +60,21 @@ public class torretaController : MonoBehaviour
     {
         if (Input.GetKeyDown("space") || count % tasaDisparo == 0) {
             Disparar();
+        }
+
+        if (Input.GetKeyDown("f"))
+        {
+            animator.SetTrigger("die");
+        }
+
+        if (Input.GetKeyDown(","))
+        {
+            tasaDisparo += 5;
+        }
+
+        if (Input.GetKeyDown("."))
+        {
+            tasaDisparo = Mathf.Max(2, tasaDisparo - 5);
         }
         count++;
     }

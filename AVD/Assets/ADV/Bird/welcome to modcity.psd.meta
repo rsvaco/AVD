@@ -3,23 +3,20 @@ guid: fcb5ea177c53ff24494c0eef99c5fa58
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4465500240571014670
+      213: 21300000
     second: welcome to modcity_0
   - first:
-      213: -2926933991400727166
+      213: 21300002
     second: welcome to modcity_1
   - first:
-      213: 8444477520348268585
+      213: 21300004
     second: welcome to modcity_2
   - first:
-      213: 3980813025146597118
+      213: 21300006
     second: welcome to modcity_3
   - first:
-      213: -2712719263599079941
+      213: 21300008
     second: welcome to modcity_4
-  - first:
-      213: 6993884329412125810
-    second: welcome to modcity_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -87,7 +84,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -99,7 +96,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: tvOS
     maxTextureSize: 2048
@@ -111,7 +108,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
@@ -123,7 +120,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -135,7 +132,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -155,7 +152,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 274e7ce0eb44f0160800000000000000
-      internalID: 6993884329412125810
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -176,7 +173,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 28d1b89da017167d0800000000000000
-      internalID: -2926933991400727166
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -197,7 +194,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9284122609fc03570800000000000000
-      internalID: 8444477520348268585
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -218,7 +215,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: efe6c19ea50be3730800000000000000
-      internalID: 3980813025146597118
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -239,7 +236,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bfd41ddc33c7a5ad0800000000000000
-      internalID: -2712719263599079941
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
