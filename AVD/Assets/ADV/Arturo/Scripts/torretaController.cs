@@ -17,7 +17,7 @@ public class torretaController : MonoBehaviour
     public float fuerzaDisparo;
     private int count = 0;
     private Animator animator;
-    private int tasaDisparo = 2;
+    private int tasaDisparo = 25;
 
     void Awake()
     {
@@ -103,11 +103,8 @@ public class torretaController : MonoBehaviour
         {
             Rigidbody bala;
             bala = GameObject.Instantiate(balaPrefab, slots[count % slots.Length].transform.position, slots[count % slots.Length].transform.rotation).GetComponent<Rigidbody>();
-            //GameObject balita = SpawnAmmo(slots[count % slots.Length].transform.position, slots[count % slots.Length].transform.rotation);
-            //bala = balita.GetComponent<Rigidbody>();
-
             bala.GetComponent<Rigidbody>().AddForce(bala.transform.forward * fuerzaDisparo, ForceMode.Impulse);
-            //bala.AddForce(bala.transform.forward * fuerzaDisparo, ForceMode.Impulse);
+            gameObject.GetComponent<AudioSource>().Play();
         }
     }
 }
