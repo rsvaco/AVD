@@ -1,82 +1,14 @@
 fileFormatVersion: 2
 guid: 511442ac3a26cf5449f81a4c9231c8d2
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Body
-    100002: Hair
-    100004: HairEND
-    100006: Head
-    100008: LeftEar
-    100010: LeftEarEND
-    100012: LeftFrontLowerFoot
-    100014: LeftFrontLowerFootEND
-    100016: LeftFrontLowerLeg
-    100018: LeftFrontUpperLeg
-    100020: LeftRearLowerFoot
-    100022: LeftRearLowerFoot_END
-    100024: LeftRearLowerLeg
-    100026: LeftRearUpperLeg
-    100028: //RootNode
-    100030: LlamaLP001
-    100032: Neck
-    100034: Neck2
-    100036: Nose
-    100038: NoseEND
-    100040: RightEar
-    100042: RightEarEND
-    100044: RightFrontLowerFoot
-    100046: RightFrontLowerFootEND
-    100048: RightFrontLowerLeg
-    100050: RightFrontUpperLeg
-    100052: RightRearLowerFoot
-    100054: RightRearLowerFootEND
-    100056: RightRearLowerLeg
-    100058: RightRearUpperLeg
-    100060: Root
-    100062: Tail
-    100064: TailEND
-    400000: Body
-    400002: Hair
-    400004: HairEND
-    400006: Head
-    400008: LeftEar
-    400010: LeftEarEND
-    400012: LeftFrontLowerFoot
-    400014: LeftFrontLowerFootEND
-    400016: LeftFrontLowerLeg
-    400018: LeftFrontUpperLeg
-    400020: LeftRearLowerFoot
-    400022: LeftRearLowerFoot_END
-    400024: LeftRearLowerLeg
-    400026: LeftRearUpperLeg
-    400028: //RootNode
-    400030: LlamaLP001
-    400032: Neck
-    400034: Neck2
-    400036: Nose
-    400038: NoseEND
-    400040: RightEar
-    400042: RightEarEND
-    400044: RightFrontLowerFoot
-    400046: RightFrontLowerFootEND
-    400048: RightFrontLowerLeg
-    400050: RightFrontUpperLeg
-    400052: RightRearLowerFoot
-    400054: RightRearLowerFootEND
-    400056: RightRearLowerLeg
-    400058: RightRearUpperLeg
-    400060: Root
-    400062: Tail
-    400064: TailEND
-    2100000: lambert1
-    4300000: LlamaLP001
-    7400000: Idle
-    9500000: //RootNode
-    13700000: LlamaLP001
+  serializedVersion: 28
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Idle
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -105,6 +37,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: Take 001
+      internalID: 1827226128182048838
       firstFrame: 1
       lastFrame: 500
       wrapMode: 0
@@ -137,6 +70,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -144,18 +78,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -164,10 +99,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -177,13 +112,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: Root
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 6b855ac7584ce4d4391187750e5a64bb,
+    type: 3}
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 2
   additionalBone: 0
   userData: 
   assetBundleName: 

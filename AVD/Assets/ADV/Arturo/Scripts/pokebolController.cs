@@ -22,7 +22,7 @@ public class pokebolController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.gameObject.layer == 16)
+        if (collision.collider.gameObject.layer == 8 || collision.collider.gameObject.layer == 16)
         {
             if (GameObject.FindGameObjectsWithTag("Player").Length == 0)
             {

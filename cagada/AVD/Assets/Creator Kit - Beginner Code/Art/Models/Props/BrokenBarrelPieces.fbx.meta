@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 9bded541934a9e7449c1dda163837db8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Barrel5Ring3
+    100002: Barrelbottom
+    100004: BarrelPlank
+    100006: BarrelPlank10
+    100008: BarrelPlank11
+    100010: BarrelPlank12
+    100012: BarrelPlank2
+    100014: BarrelPlank3
+    100016: BarrelPlank4
+    100018: BarrelPlank5
+    100020: BarrelPlank6
+    100022: BarrelPlank7
+    100024: BarrelPlank8
+    100026: BarrelPlank9
+    100028: BarrelRing1
+    100030: BarrelRing2
+    100032: BarrelRing4
+    100034: BarrelTop
+    100036: //RootNode
+    400000: Barrel5Ring3
+    400002: Barrelbottom
+    400004: BarrelPlank
+    400006: BarrelPlank10
+    400008: BarrelPlank11
+    400010: BarrelPlank12
+    400012: BarrelPlank2
+    400014: BarrelPlank3
+    400016: BarrelPlank4
+    400018: BarrelPlank5
+    400020: BarrelPlank6
+    400022: BarrelPlank7
+    400024: BarrelPlank8
+    400026: BarrelPlank9
+    400028: BarrelRing1
+    400030: BarrelRing2
+    400032: BarrelRing4
+    400034: BarrelTop
+    400036: //RootNode
+    2100000: barrel
+    2300000: Barrel5Ring3
+    2300002: Barrelbottom
+    2300004: BarrelPlank
+    2300006: BarrelPlank10
+    2300008: BarrelPlank11
+    2300010: BarrelPlank12
+    2300012: BarrelPlank2
+    2300014: BarrelPlank3
+    2300016: BarrelPlank4
+    2300018: BarrelPlank5
+    2300020: BarrelPlank6
+    2300022: BarrelPlank7
+    2300024: BarrelPlank8
+    2300026: BarrelPlank9
+    2300028: BarrelRing1
+    2300030: BarrelRing2
+    2300032: BarrelRing4
+    2300034: BarrelTop
+    3300000: Barrel5Ring3
+    3300002: Barrelbottom
+    3300004: BarrelPlank
+    3300006: BarrelPlank10
+    3300008: BarrelPlank11
+    3300010: BarrelPlank12
+    3300012: BarrelPlank2
+    3300014: BarrelPlank3
+    3300016: BarrelPlank4
+    3300018: BarrelPlank5
+    3300020: BarrelPlank6
+    3300022: BarrelPlank7
+    3300024: BarrelPlank8
+    3300026: BarrelPlank9
+    3300028: BarrelRing1
+    3300030: BarrelRing2
+    3300032: BarrelRing4
+    3300034: BarrelTop
+    4300000: BarrelPlank9
+    4300002: BarrelRing4
+    4300004: BarrelTop
+    4300006: Barrelbottom
+    4300008: BarrelPlank6
+    4300010: BarrelPlank3
+    4300012: BarrelPlank12
+    4300014: BarrelPlank10
+    4300016: BarrelPlank
+    4300018: BarrelPlank7
+    4300020: BarrelPlank4
+    4300022: BarrelPlank11
+    4300024: BarrelPlank2
+    4300026: BarrelPlank8
+    4300028: BarrelPlank5
+    4300030: Barrel5Ring3
+    4300032: BarrelRing2
+    4300034: BarrelRing1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
