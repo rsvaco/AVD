@@ -31,7 +31,7 @@ public class balaScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Player")
         {
             collision.gameObject.GetComponent<morir>().muerte();
         }
